@@ -34,6 +34,12 @@
     - { repo: "carlospolop/PEASS-ng",  regex: "winPEASx64.exe", location: "/opt/peas" }
     - { repo: "WithSecureLabs/chainsaw",  regex: "chainsaw_all_", location: "/opt/" }
     - { repo: "BloodHoundAD/BloodHound", regex: "BloodHound-linux-x64.zip", location: "/opt/" }
+    - { repo: "itm4n/PrintSpoofer", regex: "PrintSpoofer64.exe", location: "/opt/" }
+    - { repo: "antonioCoCo/JuicyPotatoNG", regex: "JuicyPotatoNG.zip", location: "/opt/" }
+    - { repo: "DominicBreuker/pspy", regex: "pspy64", location: "/opt/" }
+    - { repo: "nicocha30/ligolo-ng", regex: "_agent_.*_windows_amd64.zip", location: "/opt/ligolo" }
+    - { repo: "nicocha30/ligolo-ng", regex: "_agent_.*_linux_amd64.tar.gz", location: "/opt/ligolo" }
+    - { repo: "nicocha30/ligolo-ng", regex: "_proxy_.*_linux_amd64.tar.gz", location: "/opt/ligolo" }
   async: 45
   poll: 0
   become: true

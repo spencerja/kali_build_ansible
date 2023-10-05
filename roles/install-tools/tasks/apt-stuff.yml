@@ -15,8 +15,24 @@
       - jq
       - pipx
       - ntpdate
-      - flameshot
       - exiftool
+      - golang-go
+      - feroxbuster
+      - neo4j
+      - rsyslog
+      - ufw
+      - dconf-cli
+      - cargo
+      - wine
+      - bloodhound
+      - python3-wsgidav
+      - keepass2
+      - gobuster
+      - oscanner
+      - sipvicious
+      - tnscmd10g
+      - wkhtmltopdf
+      - snmp-mibs-downloader
     state: latest
   become: true
   become_method: sudo
