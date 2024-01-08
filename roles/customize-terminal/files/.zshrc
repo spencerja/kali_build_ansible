@@ -91,7 +91,7 @@ if [ -n "$force_color_prompt" ]; then
     fi
 fi
 
-configure_propt() {
+configure_prompt() {
     prompt_symbol=㉿
     # Skull emoji for root terminal
     #[ "$EUID" -eq 0 ] && prompt_symbol=💀
@@ -258,4 +258,3 @@ if [ -f /etc/zsh_command_not_found ]; then
 fi
 alias cme="crackmapexec"
 export PATH="/home/kali/.local/bin:$PATH"
-
